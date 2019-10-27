@@ -5,19 +5,19 @@ class Author
   def initialize(name) 
     
     @name = name 
-    
+    @posts = [] 
   end
   
-  @@number_songs = 0 
+  @@number_posts = 0 
   
   def add_song(song)
-    @songs << songs
-    song.artist = self 
-    @@number_songs += 1
+    @posts << posts 
+    post.author = self 
+    @@number_posts += 1
   end
   
-  def add_song_by_name(name) 
-    song = Song.new(name)
+  def add_post_by_title(title) 
+    post = Song.new(name)
     @songs << songs
     song.artist = self 
     @@number_songs += 1
