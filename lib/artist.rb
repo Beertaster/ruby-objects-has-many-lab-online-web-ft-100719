@@ -20,4 +20,8 @@ class Artist
     
   end
   
+  def song.count
+    
+  end
+  
 end
