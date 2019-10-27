@@ -22,10 +22,6 @@ class Artist
     @@number_songs += 1
   end
   
-  def artist_name 
-    
-  end
-  
   def song.count
     @@number_songs
   end
